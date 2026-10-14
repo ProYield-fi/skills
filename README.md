@@ -1,11 +1,15 @@
-# Pro Yield — agent skills
+# [Pro Yield](https://proyield.fi) — agent skills
 
 [![skills.sh](https://skills.sh/b/ProYield-fi/skills)](https://skills.sh/ProYield-fi/skills)
 
 Agent skills published by the **Pro Yield team**. Pro Yield runs a non-custodial,
 code-capped USDC vault on HyperEVM (Hyperliquid's EVM) and publishes the read-only
-data around it — venue rates, vault state, and daily share-price history — at
-[docs and APIs on pyd.fi](https://pyd.fi).
+data around it — venue rates, vault state, and daily share-price history — as a
+public JSON API.
+
+> The project's website is **[proyield.fi](https://proyield.fi)**; the API machine
+> host is **pyd.fi**. Every endpoint and example below talks to `pyd.fi`, because
+> that is where the JSON API lives.
 
 These skills are free, read-only, and require no account or API key.
 

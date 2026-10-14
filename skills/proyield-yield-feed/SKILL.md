@@ -12,6 +12,9 @@ venue rates with safety tiers, a non-custodial USDC vault's live on-chain state,
 and the vault's daily share-price history. Every response is sourced and dated.
 This skill is a client-side guide to reading it.
 
+The project's website is **proyield.fi**; the API machine host is **pyd.fi**.
+Every example below talks to `pyd.fi`, because that is where the JSON API lives.
+
 Two surfaces, one data model:
 
 - a **free read tier** (`/api/yield/*`) — no account, no key, open CORS, rate-limited;
@@ -487,8 +490,9 @@ it to tell a user what return they will get.
   EVM and Solana. Read it for payer mechanics; this skill supplies the live
   resource and the worked responses.
 - `defi-yield-research` — method for comparing live DeFi yields across venues,
-  including how to read sourced rates without overstating them.
+  including how to read sourced rates without overstating them. *(Pro Yield stack.)*
 - `live-data-verification` — the provenance discipline this feed assumes: every
-  number traced to a source and a timestamp before it is quoted.
+  number traced to a source and a timestamp before it is quoted. *(Pro Yield stack.)*
 - `onchain-treasury-operations` — safe handling patterns for agent-adjacent
   wallets and signers, relevant when wiring a payer for the paid rail.
+  *(Pro Yield stack.)*
